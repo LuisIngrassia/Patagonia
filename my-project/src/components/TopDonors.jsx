@@ -1,7 +1,7 @@
 export default function TopDonors({ donors }) {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6">
-      <h2 className="text-2xl font-semibold mb-4">Top Donors</h2>
+    <div className="select-none bg-white rounded-lg shadow-md p-6">
+      <h2 className="text-2xl font-semibold mb-4">Top Donadores</h2>
       <ul>
         {donors.map((donor, index) => (
           <li
